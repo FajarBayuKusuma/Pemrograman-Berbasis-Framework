@@ -42,7 +42,6 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 > - Menyimpan riwayat perubahan kode.  
 > - Berkolaborasi dengan tim menggunakan repository seperti GitHub atau GitLab.  
 > - Mengelola versi proyek secara efisien.  
-
 > **VS Code (Visual Studio Code)**  
 > VS Code adalah editor kode sumber yang ringan dan kaya fitur, digunakan untuk menulis, mengedit, dan menjalankan berbagai bahasa pemrograman. VS Code mendukung:  
 > - **Ekstensi** untuk berbagai bahasa dan alat pengembangan.  
@@ -92,7 +91,20 @@ App Router di Next.js adalah sistem routing berbasis folder `app/` yang memperke
 
 
 
-#### 2. Apa saja kegunaak folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3
+#### 2. Apa saja kegunaan folder dan file yang ada pada struktur proyek React yang tampil pada gambar pada tahap percobaan ke-3
+
+**Folder .next** <br>
+Next.js menyimpan file dan data yang diperlukan untuk menjalankan aplikasi di sisi server, seperti build output, halaman statis yang di-generate, dan cache. <br>
+
+**Folder node_modules** <br>
+Folder ini berisi dependensi proyek, yaitu library atau paket npm yang digunakan dalam aplikasi React. Ketika kamu menginstal paket menggunakan perintah npm install atau yarn, folder ini akan berisi semua paket yang dibutuhkan untuk menjalankan aplikasi, seperti React itu sendiri, serta paket lainnya.
+
+**Public**<br>
+Folder ini digunakan untuk menyimpan file statis yang bisa diakses langsung oleh browser, seperti gambar, favicon, dan file HTML utama (misalnya index.html di dalam proyek React). Semua file dalam folder public dapat diakses melalui URL yang langsung sesuai dengan lokasi file tersebut di dalam folder.
+
+**src/app** <br>
+Folder ini biasanya berisi kode sumber aplikasi kamu. Dalam React, folder src digunakan untuk menyimpan komponen, file konfigurasi, dan logika aplikasi. Subfolder app mungkin digunakan untuk mengorganisir komponen aplikasi yang lebih besar atau sebagai entry point untuk aplikasi dalam proyek Next.js.
+
 
 #### 3. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
 >Proyek Pertama </br>
@@ -115,5 +127,6 @@ App Router di Next.js adalah sistem routing berbasis folder `app/` yang memperke
 **Jawab:** <br>
 `user.imageUrl` digunakan untuk mengakakses url dari image yang ingin digunakan
 #### 2. Buktikan dengan screenshoot yang menunjukkan bahwa tahapan percobaan di atas telah berhasil Anda lakukan!
+**Jawab:** <br>
 >VS CODE </br>
 ![Gambar 1](img/final%20result.png)
