@@ -42,11 +42,11 @@ Website pribadi akan memiliki ga halaman:
 2. Proyek: Halaman untuk menampilkan proyek-proyek yang telah diselesaikan. 
 3. Esai: Halaman untuk menampilkan da ar ar kel yang telah ditulis. 
 a. Membuat halaman Tentang saya <br>
-![Gambar 1](../SS/Week%205/1.png)
+![Gambar 1](./public/SS//1.png)
 b. Membuat halaman Tentang Project <br>
-![Gambar 2](../SS/Week%205/2.png)
+![Gambar 2](./public/SS//2.png)
 c. Membuat halaman Tentang esai
-![Gambar 3](../SS/Week%205/3.png) <br>
+![Gambar 3](./public/SS//3.png) <br>
 -- .
 
 
@@ -55,28 +55,28 @@ Layout digunakan untuk menyediakan struktur yang konsisten di seluruh halaman, s
 footer. 
 
 a. Membuat Componen Layout <br>
-![Gambar 1](../SS/Week%205/com%20layout.png)
+![Gambar 1](./public/SS//com%20layout.png)
 b. Membuat component footer <br>
-![Gambar 2](../SS/Week%205/com%20footer.png)
+![Gambar 2](./public/SS//com%20footer.png)
 c. Membuat component navbar
-![Gambar 3](../SS/Week%205/com%20nav.png) <br>
+![Gambar 3](./public/SS//com%20nav.png) <br>
 d. melakukan Update pada app/layout, app/page, project/page, dan essays/page beserta outputnya
 - app/layout
-![Gambar 5](../SS/Week%205/5.png)
+![Gambar 5](./public/SS//5.png)
 - app/page
-![Gambar 6](../SS/Week%205/Ouput%201.png)
+![Gambar 6](./public/SS//Ouput%201.png)
 
 - projects/page
-![Gambar 7](../SS/Week%205/Outpu2.png)
+![Gambar 7](./public/SS//Outpu2.png)
 
 - essays/page
-![Gambar 8](../SS/Week%205/output%203.png)
+![Gambar 8](./public/SS//output%203.png)
 --
 # Praktikum 4:  Membuat Halaman Proyek dengan Grid Responsif
 Halaman proyek akan menampilkan da ar proyek dalam bentuk grid yang responsif. 
 - Simpan file dan buka h p://localhost:3000/projects di browser. Anda akan melihat da ar proyek 
 dalam grid yang responsif. 
-![Gambar 10](../SS/Week%205/output%20project.png)
+![Gambar 10](./public/SS//output%20project.png)
 
 # TUGAS
 Eksplorasi Tailwindcss, kemudian. 
@@ -84,9 +84,8 @@ Eksplorasi Tailwindcss, kemudian.
 2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik <br>
 
 A. Modifikasi Halaman "Tentang Esai"
-![Gambar 13](../SS/Week%205/modivikasi%20hal%203.png)
+![Gambar 13](./public/SS//modivikasi%20hal%203.png)
 B. Modifikasi Halaman "Tentang Saya"
-![Gambar 11](../SS/Week%205/Modifikasi%20profile.png)
+![Gambar 11](./public/SS//Modifikasi%20profile.png)
 C. Hasil Akhir halaman "Projects Saya"
-![Gambar 12](../SS/Week%205/mdoivikasi%20hal%202.png)
->>>>>>> afde57d (Push ulang, done semua)
+![Gambar 12](./public/SS/modivikasi%20hal%203.png)
